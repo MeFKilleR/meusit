@@ -21,7 +21,7 @@ function App() {
           </p>
 
           <br />
-          <input type="password" placeholder="Password.." />
+          <input type="password" placeholder="Password" />
           <br />
           <button>Get started</button>
           <p>

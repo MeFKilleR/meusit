@@ -1,0 +1,52 @@
+[33mcommit 569ac326bb41e5e1bdd7feba04875326aa71f6d1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jorge Silva <timao2phb@hotmail.com>
+Date:   Tue Sep 14 13:53:25 2021 -0300
+
+    Mudança de pass
+
+[1mdiff --git a/src/App.tsx b/src/App.tsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e9bdfab[m
+[1m--- /dev/null[m
+[1m+++ b/src/App.tsx[m
+[36m@@ -0,0 +1,40 @@[m
+[32m+[m[32mimport React from "react";[m
+[32m+[m[32mimport Cab from "./Components/Cab";[m
+[32m+[m[32mimport "./fostyls/App.css";[m
+[32m+[m
+[32m+[m[32mfunction App() {[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <div className="App">[m
+[32m+[m[32m      <Cab />[m
+[32m+[m[32m      <main>[m
+[32m+[m[32m        <div className="MsgTex">[m
+[32m+[m[32m          <h2>[m
+[32m+[m[32m          Manage your freelance business with us![m
+[32m+[m[32m          </h2>[m
+[32m+[m[32m          <h3>Takes less than 10 minutes to fill out all the information needed to[m
+[32m+[m[32m            register your business.</h3>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div className="Impts">[m
+[32m+[m[32m          <input type="text" placeholder="Email" />[m
+[32m+[m[32m          <p className="PName">[m
+[32m+[m[32m            Full name <br /> <input type="text" placeholder="Nome completo" />[m
+[32m+[m[32m          </p>[m
+[32m+[m
+[32m+[m[32m          <br />[m
+[32m+[m[32m          <input type="password" placeholder="Password.." />[m
+[32m+[m[32m          <br />[m
+[32m+[m[32m          <button>Get started</button>[m
+[32m+[m[32m          <p>[m
+[32m+[m[32m            By signing up you are agreeing to our[m
+[32m+[m[32m            <br />[m
+[32m+[m[32m            <strong>[m
+[32m+[m[32m              <a href="#">Terms and Conditions</a>[m
+[32m+[m[32m            </strong>[m
+[32m+[m[32m          </p>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </main>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport default App;[m
