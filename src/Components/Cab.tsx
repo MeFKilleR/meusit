@@ -4,12 +4,12 @@ function Cab() {
   return (
     <div className="Cab">
       <div>
-        <h1>Bric</h1>
+        <h1>Bricc</h1>
         <h4>
           Have acconunt? <a href="#">Log in</a>
         </h4>
       </div>
-    </div>
+    </div> 
   );
 }
 

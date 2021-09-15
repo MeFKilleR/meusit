@@ -1,0 +1,21 @@
+input{
+    width: 350px;
+    border-style: none;
+    border-bottom: 1px solid #cdd1e0;
+}
+
+input:focus {
+    outline: none;
+    border-style: none;
+    border-bottom: 2px solid #6a65c9;
+    color: #000000;
+}
+
+.PName:focus-within{
+    color: #6a65c9;
+}
+
+.Impts{
+    margin: 10px 0px 0px 50px;
+    width: 350px;
+}

@@ -1,0 +1,37 @@
+.MsgTex{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    margin: 50px 50px 10px;
+}
+
+h3{
+    margin: auto 50px;
+    text-align: left;
+    color: #aaafb3;
+}
+
+a{
+    width: max-content;
+    color: #413ef7;
+    text-decoration: none;
+}
+
+a:active{
+    color: #6a67fa;
+}
+
+p{
+    height: 60px;
+    width: max-content;
+    color: #aaafb3;
+}
+
+*{
+    color: #2c343e;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
